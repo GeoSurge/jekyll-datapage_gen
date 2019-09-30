@@ -308,6 +308,7 @@ Generating Filename with an Expression
 
 You can generate filenames with an expression, by replacing `name` with `name_expr`.
 For example, if you have data in a .yml file that looks like this:
+```
     - first_name: adolfo
       last_name: villafiorita
       bio: long bio goes here
@@ -317,8 +318,9 @@ For example, if you have data in a .yml file that looks like this:
     - first_name: aaron
       last_name: ciaghi
       bio: another very long bio
+```
 
-And your `_config.yml` contains the following:
+Your `_config.yml` could contain the following:
 
     page_gen:
       - data: 'members'
